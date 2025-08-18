@@ -5,11 +5,11 @@ export default function Hero() {
         <div className="grid items-center gap-8">
           <div>
             <p className="text-sm uppercase tracking-widest text-neutral-400">Software Engineer</p>
-            <h1 className="mt-4 text-4xl md:text-6xl font-bold tracking-tight font-roboto-mono bg-gradient-to-r from-purple-400 to-white bg-clip-text text-transparent">
+            <h1 className="mt-4 text-4xl md:text-6xl font-bold tracking-tight font-roboto-mono bg-gradient-to-r from-purple-400 to-white bg-clip-text text-transparent leading-[1.15] pb-2">
               Nicolas Nunney
             </h1>
             <p className="mt-6 max-w-2xl text-neutral-300 md:text-lg">
-              I design and build fast, accessible web applications with React, TypeScript, and a strong focus on developer experience.
+              French developer studying Computer Science at Epitech Lyon 👋.
             </p>
           </div>
         </div>

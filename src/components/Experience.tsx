@@ -9,16 +9,16 @@ type ExperienceItem = {
 
 const experience: ExperienceItem[] = [
   {
-    role: 'Senior Frontend Engineer',
-    company: 'Acme Corp',
-    period: '2023 — Present',
-    description: 'Lead frontend initiatives, architect design systems, and mentor engineers.'
+    role: 'Technical Assistant Intern',
+    company: 'Epitech Lyon',
+    period: '2025 — Present',
+    description: 'Assisting new students in their learning journey at Epitech'
   },
   {
-    role: 'Full‑stack Engineer',
-    company: 'Startup XYZ',
-    period: '2021 — 2023',
-    description: 'Built and scaled web apps across the stack with a focus on performance.'
+    role: 'Software Developer Intern',
+    company: 'SIC Marking',
+    period: 'July 2024 — January 2025',
+    description: 'Built a WPF application to pilot a new marking system.'
   }
 ]
 

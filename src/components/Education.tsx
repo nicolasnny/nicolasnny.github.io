@@ -9,16 +9,10 @@ type EducationItem = {
 
 const education: EducationItem[] = [
   {
-    degree: 'B.Sc. Computer Science',
-    school: 'Your University',
-    period: '2017 — 2020',
+    degree: 'IT Expert',
+    school: 'Epitech Lyon',
+    period: '2023 — 2028',
     details: 'Focused on software engineering, algorithms, and web technologies.'
-  },
-  {
-    degree: 'M.Sc. Software Engineering',
-    school: 'Your University',
-    period: '2020 — 2022',
-    details: 'Specialized in frontend architectures and human‑computer interaction.'
   },
 ]
 

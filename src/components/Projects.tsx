@@ -10,22 +10,22 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: 'Personal Website',
-    description: 'A fast, accessible portfolio powered by React, Vite, and Tailwind with hot‑reloading DX.',
-    stack: ['React', 'TypeScript', 'Vite', 'Tailwind'],
-    live: '#',
-    repo: '#',
+    title: 'Raytracer',
+    description: 'A program that generates images with light interactions',
+    stack: ['C++'],
+    repo: 'https://github.com/nicolasnny/Raytracer',
   },
   {
-    title: 'API Boilerplate',
-    description: 'Production‑ready Node.js REST API with auth, testing, and CI/CD.',
-    stack: ['Node.js', 'Express', 'PostgreSQL', 'Jest', 'Docker'],
-    repo: '#',
+    title: 'Zappy',
+    description: 'Network game where players controlled by AI compete to reach the highest level by farming ressources',
+    stack: ['C++', 'C', 'Python'],
+    repo: 'https://github.com/nicolasnny/Zappy',
   },
   {
-    title: 'UI Component Kit',
-    description: 'Composable, accessible components documented with Storybook.',
-    stack: ['React', 'Storybook', 'Tailwind'],
+    title: 'ShopMe',
+    description: 'E-commerce platform for selling things 🤷‍♂️ (work in progress)',
+    stack: ['TypeScript', 'React', 'TailwindCSS', 'Python', 'Flask', 'MySQL'],
+    repo: 'https://github.com/nicolasnny/ShopMe',
   },
 ]
 
