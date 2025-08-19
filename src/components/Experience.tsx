@@ -5,6 +5,7 @@ type ExperienceItem = {
   company: string
   period: string
   description: string
+  stack: string[]
 }
 
 const experience: ExperienceItem[] = [
@@ -12,13 +13,15 @@ const experience: ExperienceItem[] = [
     role: 'Technical Assistant Intern',
     company: 'Epitech Lyon',
     period: '2025 — Present',
-    description: 'Assisting new students in their learning journey at Epitech'
+    description: 'Assisting new students in their learning journey at Epitech',
+    stack: ['C', 'C++', 'Python', 'Pedagogy', 'Problem solving']
   },
   {
     role: 'Software Developer Intern',
     company: 'SIC Marking',
     period: 'July 2024 — January 2025',
-    description: 'Built a WPF application to pilot a new marking system.'
+    description: 'Built a software to pilot a new marking system.',
+    stack: ['C#', 'WPF', '.NET', 'Modbus TCP', 'XAML']
   }
 ]
 
@@ -38,6 +41,13 @@ export default function Experience() {
                 <span className="text-neutral-400 text-sm">{item.period}</span>
               </div>
               <p className="mt-3 text-neutral-300 text-sm">{item.description}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {item.stack.map((s) => (
+                  <span key={s} className="rounded-md border border-neutral-800 bg-neutral-950 px-2 py-0.5 text-xs text-neutral-300">
+                    {s}
+                  </span>
+                ))}
+              </div>
             </InteractiveCard>
           ))}
         </ol>
